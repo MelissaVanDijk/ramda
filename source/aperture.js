@@ -15,7 +15,7 @@ import _xaperture from './internal/_xaperture.js';
  * @since v0.12.0
  * @category List
  * @sig Number -> [a] -> [[a]]
- * @param {Number} n The size of the tuples to create
+ * @param {Number} n The size of the tuples to create, must be an integer greater than zero
  * @param {Array} list The list to split into `n`-length tuples
  * @return {Array} The resulting list of `n`-length tuples
  * @see R.transduce
